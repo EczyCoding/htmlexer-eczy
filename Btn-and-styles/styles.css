@@ -1,0 +1,51 @@
+* {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Twinkle Star', cursive;  
+}
+
+body {
+    background-color: #004450;
+}
+
+.menu .material-symbols-outlined {
+    background: linear-gradient(to bottom, rgb(109, 245, 250), rgb(128, 16, 156));
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+} .menu .material-symbols-outlined:hover {
+    border-bottom: 10px solid white;
+    box-shadow: #aaf2ff91 0px 0px 15px 0px;
+    transition: .10s;
+    background: linear-gradient(to bottom, rgb(21, 241, 248), rgb(223, 116, 255));
+} .menu .menu-wp {
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 10px;
+    border-bottom: 5px solid #ffffff;
+    background-color: rgba(158, 236, 255, 0.432);
+    display: inline-flex;
+    flex-direction: row;
+} 
+
+
+table {
+    border-radius: 20px;
+    background-color: black;
+    padding: 100px;
+    border: solid rgb(255, 255, 255) 5px;
+}
+table td p {
+    border-radius: 15px;
+    color: black;
+    background-color: #ffffff;
+    width: 100px;
+    padding: 10px;
+    border: solid rgb(255, 255, 255) 1px;
+}
+table td h1 {
+    border-radius: 15px;
+    background-color: rgb(34, 34, 34);
+    padding: 5px;
+    border: solid black 1px;
+}
